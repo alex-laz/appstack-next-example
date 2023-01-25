@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "prettier": {
+    "jsxSingleQuote": true,
+    "semi": false,
+    "singleQuote": true
+  },
+  "dependencies": {
+    "@appstackjs/react": "^0.2.7",
+    "@auth0/auth0-react": "^2.0.0",
+    "next": "^13.1.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "swr": "^2.0.1"
+  },
+  "devDependencies": {
+    "@googleapis/calendar": "^3.0.0"
+  }
+}
